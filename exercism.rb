@@ -31,8 +31,7 @@ end
 
   if $PROGRAM_NAME == __FILE__
   Attendee.new(100).has_pass?
-  Attendee.new(140).fits_ride?(100)
-
+  Attendee.new(140).fits_ride?(100)  
   attendee = Attendee.new(100)
   attendee.issue_pass!(42)
   attendee.allowed_to_ride?(120)
