@@ -15,7 +15,7 @@ class Attendee
   end  
 end
   
-if $PROGRAM_NAME == __FILE__
+if $PROGRAM_NAME == __FILE__    
   attendee = Attendee.new(106)
   puts attendee.height
   puts attendee.pass_id
